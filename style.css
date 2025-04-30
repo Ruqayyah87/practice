@@ -1,0 +1,36 @@
+.container{
+height: 600px;
+width: 100%;
+border: 2px solid black;
+display: flex;
+/* flex-direction: column-reverse;
+flex-direction: row-reverse; */
+flex-direction: row;
+flex-wrap: wrap;
+/* justify-content: center; */
+/* justify-content: space-evenly; */
+justify-content: space-around ;
+
+}
+
+.box{
+width: 120px;
+height: 100px;
+background-color: aquamarine;
+border: 2px solid greenyellow;
+margin: 10px;
+padding: 4px;
+flex-flow: column wrap;
+justify-content: center; 
+}
+#box1{
+order: 103;
+}
+
+#box2{
+    order: ;
+}
+
+#box3{
+    
+}
